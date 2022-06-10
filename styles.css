@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+:root {
+    --header-height: 3.5rem; 
+}
+
+
+/*=============== Color Variables ===========*/
+/* Color Theme Swatches in Hex */
+.Gold-1-hex { color: #FAF6F2; }
+.Gold-2-hex { color: #BF9106; }
+.Gold-3-hex { color: #DED1BD; }
+.Gold-4-hex { color: #733C30; }
+.Gold-5-hex { color: #D99E91; }
+
+/* Color Theme Swatches in RGBA */
+.Gold-1-rgba { color: rgba(250, 246, 242, 1); }
+.Gold-2-rgba { color: rgba(191, 145, 6, 1); }
+.Gold-3-rgba { color: rgba(222, 209, 189, 1); }
+.Gold-4-rgba { color: rgba(115, 60, 48, 1); }
+.Gold-5-rgba { color: rgba(217, 158, 145, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Gold-1-hsla { color: hsla(30, 44, 96, 1); }
+.Gold-2-hsla { color: hsla(45, 93, 38, 1); }
+.Gold-3-hsla { color: hsla(36, 33, 80, 1); }
+.Gold-4-hsla { color: hsla(10, 41, 31, 1); }
+.Gold-5-hsla { color: hsla(10, 48, 70, 1); }
+
+
+* {
+    box-sizing: border box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, button, input, textarea {
+    font-family: poppins;
+    color:rgba(250, 246, 242, 1)
+    
+}
