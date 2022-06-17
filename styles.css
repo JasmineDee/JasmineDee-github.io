@@ -41,6 +41,127 @@ html {
 
 body, button, input, textarea {
     font-family: poppins;
-    color:rgba(250, 246, 242, 1)
-    
+    font-size:medium;
+}
+
+body {
+    background-color:hsla(30, 44, 96, 1);
+    color:black;
+}
+
+h1, h2, h3 {
+    color: hsla(10,41,31,1);
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 968px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.grid {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.section {
+    padding: 4.5rem 0 1rem;
+}
+
+.section_title , .section_subtitle {
+    text-align: center;
+}
+
+.section_title{
+    font-size: medium;
+    color:#BF9106;
+    margin-bottom: 2rem;
+
+}
+
+.section_subtitle{
+    display: block;
+    font-size: smaller;
+    color: grey;
+}
+
+/*========== Header ===========*/
+
+.header {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background-color:hsla(36, 33, 80, 1);
+    z-index:var(fixed);
+}
+
+.nav {
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+    color:rgba(115, 60, 48, 1);
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.nav__logo:hover{
+    color: hsla(30, 44, 96, 1);
+}
+
+.nav__menu{
+    position: fixed;
+    bottom: 1rem;
+    background-color:#BF9106;
+    width: 90%;
+    border-radius: 4rem;
+    padding: 1rem 2.25rem;
+    backdrop-filter: blur(10px);
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link{
+    color: black;
+    font-size: 1.25rem;
+    padding: .4rem;
+    display: flex;
+    border-radius: 5rem;
+}
+
+.active-link{
+    background: linear-gradient(180deg,rgba(222, 209, 189, 1))
 }
